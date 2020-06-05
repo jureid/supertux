@@ -1,0 +1,24 @@
+{
+    "cmake.configureOnOpen": false,
+    "githubIssues.queries": [
+
+        
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ],
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "/Users/julia/vcpkg-prod/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_BUILD": "ON"
+    },
+    "cmake.debugConfig": {
+        "miDebuggerPath": "/Users/julia/.vscode/extensions/ms-vscode.cpptools-0.28.2/debugAdapters/lldb-mi/bin/lldb-mi"
+    },
+    "cmake.generator": "Unix Makefiles",
+    "workbench.colorTheme": "Visual Studio Dark - C++"
+}
